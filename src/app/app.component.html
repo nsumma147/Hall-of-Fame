@@ -11,7 +11,25 @@
     <title>{{title}}</title>
   </head>
   <body>
-    <h1>Welcome to the {{title}}</h1>
+
+    <div class="container" id="header">
+
+      <div class="row col-12" id="header-top">
+        <h1 id="header-title">Welcome to the {{title}} </h1>
+
+      </div>
+
+      <nav class="col-12 navbar navbar-default">
+
+          <ul class="nav nav-pills">
+          <li role="presentation" class="active col-3"><a href="#">Home</a></li>
+          <li role="presentation" class="col-3"><a href="#">Records</a></li>
+          <li role="presentation" class="col-3"><a href="#">Teams</a></li>
+          <li role="presentation" class="col-3"><a href="#">League</a></li>
+        </ul>
+      </nav>
+
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

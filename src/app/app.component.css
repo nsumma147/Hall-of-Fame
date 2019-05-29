@@ -1,3 +1,17 @@
-h1 {
-  text-align: center;
+body {
+  background-color: #8D817B;
+  background-size: cover;
+}
+
+#main-body {
+  background-color: #8D817B;
+}
+
+#header {
+  background-color: white;
+}
+
+#navbar {
+  width: 100%;
+  background-color: black;
 }
