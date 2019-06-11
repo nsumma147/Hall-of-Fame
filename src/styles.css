@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-#main-body {
-  background-color: #8D817B;
+#main-body{
   background-size: cover;
+  background-image: url("/src/assets/FootballStadium.png");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
